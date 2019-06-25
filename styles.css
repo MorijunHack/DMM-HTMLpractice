@@ -1,4 +1,4 @@
-/*リセット CSS*/
+/*リセットCSS*/
 
 * {
 	margin: 0;
@@ -7,61 +7,143 @@
 }
 
 /*clearfix*/
-
 .clearfix::after {
 	content: "";
 	display: block;
 	clear: both;
 }
 
+
 /*header*/
 
 header {
 	width: 100%;
-	height: 50px;
-	background: red;
+	text-align: center;
 }
 
-/*top-wrapper*/
-
-.top-wrapper {
-	width: 100%;
-	height: 500px;
-	background: orange;
+.headline {
+	padding: 20px 0;
 }
+
+nav {
+	border-top: solid 1px darkgray;
+	border-bottom: solid 1px darkgray;
+	padding: 15px 0;
+}
+
+.nav-list {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.nav-list-item {
+	display: inline-block;
+	margin: 0 20px;
+}
+
 
 /*main*/
 
 .main {
-	width: 960px;
-	margin: 0 auto;
+	margin: 50px auto;
+	width: 800px;
 }
 
-.bar {
-	width: 230px;
-	height: 1400px;
-	background: palegreen;
-}
-
-.left {
+.col1-row1 {
+	width: 200px;
+	height: 200px;
 	float: left;
+	background: #e6ffe9;
 }
 
-.main-content {
-	width: 500px;
-	height: 1400px;
-	background: limegreen;
+.col2-row1 {
+	width: 200px;
+	height: 200px;
 	float: left;
+	background: #cbffd3;
 }
 
-.right {
+.col3-row1 {
+	width: 200px;
+	height: 200px;
 	float: left;
+	background: #aeffbd;
 }
+
+.col4-row1 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background: #93ffab;
+}
+
+.col1-row2 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background: #f3ffd8;
+}
+
+.col2-row2 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background: #edffbe;
+}
+
+.col3-row2 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background: #e9ffa5;
+}
+
+.col4-row2 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background: #e4ff8d;
+}
+
+.col1-row3 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background: #d9e5ff;
+}
+
+.col2-row3 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background: #bad3ff;
+}
+
+.col3-row3 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background: #a4c6ff;
+}
+
+.col4-row3 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background: #8eb8ff;
+}
+
 
 /*footer*/
 
 footer {
 	width: 100%;
-	height: 100px;
-	background: blue;
+	height: 120px;
+	text-align: center;
+	background: #848282;
+}
+
+.footer-text {
+	line-height: 120px;
+	color: #fff;
 }
